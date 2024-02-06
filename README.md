@@ -1,6 +1,4 @@
-# Quiz App
-
-![Quiz App Logo](images/quiz-logo.png)
+<h1 align="center">Quiz App</h1>
 
 ## Description
 
@@ -12,7 +10,19 @@ The Quiz App is a web-based application that allows users to test their knowledg
 - **Multiple-choice questions**: Users can choose from a set of predefined options for each quiz question.
 - **Scoring system**: The app keeps track of the user's score based on the number of correct answers selected.
 - **Progress tracking**: Users can track their progress through the quiz with a progress bar and question counter.
-- **High scores**: The app allows users to save their scores and view high scores on a separate page.
+- **High scores**: The app allows users to save their scores locally and view high scores on a separate page.
+
+## Installation
+
+To install and run the Quiz App, follow these steps:
+1. Clone the repository to your local machine:
+```bash
+git clone https://github.com/FatSO21B/AllaJS-QuizApp.git
+```
+2. Navigate to the project directory:
+```bash
+cd quiz-app
+```
 
 ## Usage
 
@@ -21,11 +31,12 @@ The Quiz App is a web-based application that allows users to test their knowledg
 3. Click on your chosen answer to proceed to the next question.
 4. Your score will be displayed at the end of the quiz. You can enter your name to save your score and view high scores.
 
-## Installation
+## Technologies Used
 
-To install and run the Quiz App, follow these steps:
+- HTML
+- CSS
+- JavaScript
 
-1. Clone the repository to your local machine:
-```bash
-git clone https://github.com/FatSO21B/AllaJS-QuizApp.git
-```
+## Credits
+
+- Quiz app developed by [FatSO21B](https://github.com/FatSO21B)
