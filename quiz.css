@@ -1,0 +1,93 @@
+.status-bar {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 80%;
+  min-width: 300px;
+  padding: 1%;
+}
+.status-bar-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.text {
+  font-size: 25px;
+  margin: 0;
+}
+#progressBar {
+  position: relative;
+  margin-bottom: 20px;
+  height: 25px;
+  width: 200px;
+  overflow: hidden;
+  outline: #3EC70B 2px solid;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+#progressBarFull {
+  width: 0%;
+  height: 100%;
+  background-color: #3EC70B;
+}
+.score-number {
+  font-size: 3rem;
+  margin: 0;
+}
+
+
+.choice-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 13px 0;
+  font-size: 25px;
+  background-color: rgb(18, 93, 255);
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+  -ms-transition: .2s;
+  -o-transition: .2s;
+}
+.choice-container:hover {
+  cursor: pointer;
+  transition: transform .2s;
+  -webkit-transition: transform .2s;
+  -moz-transition: transform .2s;
+  -ms-transition: transform .2s;
+  -o-transition: transform .2s;
+  transform: scale(1.03);
+  -webkit-transform: scale(1.03);
+  -moz-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  -o-transform: scale(1.03);
+  
+}
+.choice-prefix {
+  font-size: 27px;
+  padding: 0 13px;
+  margin: 0;
+}
+.choice-text {
+  margin: 0;
+  width: 100%;
+  height: calc(100% + 26px);
+  display: flex;
+  align-items: center;
+}
+
+.correct {
+  background-color: #3EC70B;
+}
+.incorrect {
+  background-color: red;
+}

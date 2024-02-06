@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Titillium Web', sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(29, 26, 26);
+  color: #fff;
+}
+.container {
+  position: relative;
+  margin: 0 auto;
+  width: 100vw;
+  height: 100vh;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+}
+
+.start-page {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+  font-size: 45px;
+  word-spacing: 10px;
+}
+.btn {
+  font-size: 28px;
+  text-decoration: none;
+  padding: 20px 0;
+  width: 300px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #1c1a1a;
+  font-weight: 700;
+  background: linear-gradient(90deg, rgba(10,135,240,1) 0%, rgba(4,112,210,1) 100%);
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  transition: transform 200ms;
+  -webkit-transition: transform 200ms;
+  -moz-transition: transform 200ms;
+  -ms-transition: transform 200ms;
+  -o-transition: transform 200ms;
+}
+.btn:hover {
+  cursor: pointer;
+  transition: transform 200ms;
+  -webkit-transition: transform 200ms;
+  -moz-transition: transform 200ms;
+  -ms-transition: transform 200ms;
+  -o-transition: transform 200ms;
+  transform: scale(1.03);
+  -webkit-transform: scale(1.03);
+  -moz-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  -o-transform: scale(1.03);
+}
+#highscore-btn {
+  background: linear-gradient(90deg, rgb(255,247,9) 0%, rgb(240,221,6)100%);
+}
+.fa-solid {
+  margin-left: 10px;
+  font-size: 30px;
+}
+
+/* -------------------------------------end------------------------------------- */
+
+.end {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.end-form-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px;
+}
+h2 {
+  text-align: center;
+  font-size: 35px;
+  word-spacing: 5px;
+}
+input {
+  margin-bottom: 30px;
+  width: 100%;
+  padding: 15px;
+  font-size: 20px;
+  box-shadow: 0 1px 14px 0 rgba(86, 185, 235, .7);
+  border: none;
+  outline: none;
+}
+#saveScoreBtn {
+  border: none;
+  color: rgb(28, 26, 26);
+}
+
+/* -------------------------------------highscores------------------------------------- */
+
+.highscores {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#highScoresList {
+  list-style: none;
+  margin-bottom: 5px;
+  padding: 0;
+}
+.high-score {
+  font-size: 30px;
+  margin-bottom: 20px;
+  border-bottom: 3px solid rgb(192,192,192);
+}
+.high-score:first-child {
+  border-bottom: 3px solid rgb(255,223,0);
+}
