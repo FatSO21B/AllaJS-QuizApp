@@ -39,4 +39,4 @@ cd quiz-app
 
 ## Credits
 
-- Quiz app developed by [FatSO21B](https://github.com/FatSO21B)
+- Quiz app developed by [DenisM](https://github.com/FatSO21B)
